@@ -1,37 +1,59 @@
-## 我爱你宝贝
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>HTML5ȫ��ɻ���սС��Ϸ - Դ��֮��</title>
 
-You can use the [editor on GitHub](https://github.com/G-y305a/test1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<style>
+	html {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		background-image: linear-gradient(#2C3E50,#4CA1AF);
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	}
 
-### Markdown
+	.canvasbig {
+		position: absolute;
+		left: calc(50% - 260px);
+		top: calc(50% - 400px);
+		width: 520px;
+		height: 800px;
+		
+	}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	.canvasdiv {
+		position: absolute;
+		cursor: pointer;
+		left: 160px;
+		top: 500px;
+		width: 200px;
+		height: 53px;
+		background-image: url(img/starting.png);
+	}
 
-```markdown
-Syntax highlighted code block
+	.none {
+		display: none;
+	}
+</style>
 
-# Header 1
-## Header 2
-### Header 3
+</head>
+<body>
 
-- Bulleted
-- List
+<!-- <script src="js/circle.js"></script> -->
 
-1. Numbered
-2. List
+<div class="canvasbig">
+	<div class="canvasdiv"></div>
+	<canvas width="520" height="800" id="canvas1"></canvas>
+</div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/G-y305a/test1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<script src="js/index.js"></script>
+<div style="text-align:center;">
+<p>����С��Ϸ��<a href="http://www.mycodes.net/" target="_blank">Դ��֮��</a></p>
+</div>
+</body>
+</html>

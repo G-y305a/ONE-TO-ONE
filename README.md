@@ -7,7 +7,8 @@
 
 <script src="js/index.js"></script>
 <div style="text-align:center;">
-<p>你好呀</p>
+<p>听说董文博最爱最爱杨颖了</p>
+<p>听说杨颖也最爱最爱董文博</p>
 </div>
 </body>
 </html>
